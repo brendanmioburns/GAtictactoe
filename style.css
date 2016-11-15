@@ -1,6 +1,6 @@
-.container {
+.game-board {
     width:450px;
-    height:450px;
+    /*You don't need height for container*/
     border:#000 1px solid;
     margin:100px auto 0 auto;
 }
@@ -10,10 +10,31 @@
 
 }
 
-.tic-cell {
+.box {
     width:150px;
     height:150px;
     border:#000 1px solid;
     float:left;
     box-sizing:border-box;
+    font-size:5em;
+    line-height:150px;
+    text-align:center;
 }
+
+/*Arun's solution*/
+
+/*.game-board {
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.box {
+    width:200px;
+    height:200px;
+    border:#000 1px solid;
+    float:left;
+    box-sizing:border-box;
+    font-size:5em;
+    line-height:3px;
+}*/
